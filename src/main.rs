@@ -7,12 +7,10 @@ fn main() -> eframe::Result {
     };
     eframe::run_native("Egui calculator", options, Box::new(|cc| Ok(Box::<MyApp>::default())))
 }
-
 enum Screen {
     Calculator,
     Converter,
 }
-
 struct MyApp {
     current_screen: Screen,
     input: String,
