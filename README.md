@@ -1,6 +1,6 @@
 ## Information
 
-### This is just easy calculator written with rust. Nothing special, its very simple.
+### This is just easy organizer written with rust. Nothing special, its very simple.
 
 ## Installation
 
